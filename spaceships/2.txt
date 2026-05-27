@@ -1,0 +1,4 @@
+Name:Heavy Cruiser
+Laser:90
+Shield:85
+Speed:30

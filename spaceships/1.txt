@@ -1,0 +1,4 @@
+Name:Starfighter X1
+Laser:85
+Shield:40
+Speed:95

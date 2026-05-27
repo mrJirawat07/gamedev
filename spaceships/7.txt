@@ -1,0 +1,4 @@
+Name:Dreadnought
+Laser:100
+Shield:100
+Speed:10

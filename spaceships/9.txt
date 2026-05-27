@@ -1,0 +1,4 @@
+Name:Support Corvette
+Laser:40
+Shield:80
+Speed:70

@@ -1,0 +1,4 @@
+Name:Assault Frigate
+Laser:80
+Shield:70
+Speed:60

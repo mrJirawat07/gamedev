@@ -1,0 +1,4 @@
+Name:Void Runner
+Laser:50
+Shield:30
+Speed:99

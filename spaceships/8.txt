@@ -1,0 +1,4 @@
+Name:Nebula Bomber
+Laser:95
+Shield:60
+Speed:40

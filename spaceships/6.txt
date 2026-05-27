@@ -1,0 +1,4 @@
+Name:Phantom Interceptor
+Laser:65
+Shield:45
+Speed:90

@@ -1,0 +1,4 @@
+Name:Orbital Defender
+Laser:75
+Shield:95
+Speed:20

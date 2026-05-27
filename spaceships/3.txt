@@ -1,0 +1,4 @@
+Name:Scout Ship
+Laser:30
+Shield:20
+Speed:100
