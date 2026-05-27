@@ -41,18 +41,20 @@ for i = 1, 35 do
     stars[i] = star
 end
 
-local function twinkleStars()
-    for i = 1, #stars do
-        transition.to(stars[i], {
-            alpha = math.random(1, 10) / 10,
-            time = math.random(1000, 3000),
-            onComplete = function()
-                if stars[i] then twinkleStars() end
-            end
-        })
-    end
+local function twinkleStar(star)
+    if not star or not star.x then return end
+    transition.to(star, {
+        alpha = math.random(1, 10) / 10,
+        time = math.random(1000, 3000),
+        onComplete = function()
+            twinkleStar(star)
+        end
+    })
 end
-twinkleStars()
+
+for i = 1, #stars do
+    twinkleStar(stars[i])
+end
 
 -- ==========================================
 -- 🪐 2. ส่วนแสดงผลข้อความและภาพดาวเคราะห์
